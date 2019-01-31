@@ -1,0 +1,38 @@
+---
+layout: compress
+--- 
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% comment %} {% include header.html %} {% endcomment %}
+
+    <div>
+      <div style="height: 330.75px;">
+        <div class="header_image" style="background-image: url(/images/header-eof25.jpg); height: 330.75px; background-size: cover;">
+        </div>
+      </div>
+      <a style="height: 0px;display: block;" href="/">
+      <img alt="skmp's blog" style="border-radius: 100%;padding: 10px;background: white;position: relative;top: -112px;margin: auto;display: block;" src="/images/avatar-skmp-dragan.jpg"></a>
+    </div>
+
+
+    <div class="container">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+    
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+ {% if site.analytics %}{% include analytics.html %}{% endif %}
+  </body>
+
+</html>

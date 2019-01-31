@@ -1,0 +1,98 @@
+---
+layout: default
+---
+
+<div class="home">
+    <div class="blog-preview">
+      <h1>Blog</h1>
+      Ramblings on technology, life and unicorns
+
+      <div class="row pack">
+
+          {% for post in site.posts limit: 3 %}   
+              <div class="col-md-4 card">
+               <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
+                  <div class="panel panel-default">
+                    
+                    {% if post.img %}
+                    <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                    {% else %}
+                    <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                    {% endif %}
+                    
+                    <div class="panel-body">
+                      <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>
+                      {% if post.type != "project" %}
+                        {{ post.date | date: "%b %-d, %Y" }}
+                      {% endif %}
+                      </small></span>
+                    </div>
+                    
+                    <div class="panel-body"><small>
+                      {{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</small>
+                    </div>
+                  </div>
+                  </a>
+              </div>
+          
+            {% endfor %}
+
+      </div> 
+      
+      <div class="row">
+          <div class="col-md-4">  </div>
+          <div class="col-md-4">
+              <ul class="pager">
+                <li><a href="/blog/">See more</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">  </div>
+      </div>
+    </div>
+
+    <div class="projects">
+      <h1>Projects</h1>
+      Some ways to keep me busy
+
+      <div class="row pack">
+        {% for post in site.projects reversed %}   
+            <div class="col-md-4 card">
+             <a href="{{ post.url | prepend: site.baseurl }}" class="index-anchor">    
+                <div class="panel panel-default">
+                  
+                  {% if post.img %}
+                  <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
+                  {% else %}
+                  <img width="100%" src="{{site.baseurl}}/images/webjeda-logo-big.jpg" alt="{{site.title}}">
+                  {% endif %}
+                  
+                  <div class="panel-body">
+                    <h3 class="panel-title pull-left">{{ post.title | truncate: 25 }}</h3><span class="post-meta pull-right"><small>
+                    {% if post.year %}
+                      {{ post.year }}
+                    {% endif %}
+                    </small></span>
+                  </div>
+                  
+                  <div class="panel-body">
+                    <small>
+                      {{ post.excerpt | strip_html | strip_newlines | truncate: 50 }}
+                    </small>
+                  </div>
+                </div>
+                </a>
+            </div>
+        
+          {% endfor %}
+      </div> 
+    </div>
+
+    <div class="projects">
+      <h1>Contact</h1>
+        skmp around #emudev in freenode. I don't always reply, I often lurk around.
+
+        <br />
+        <br />
+        <br />
+    </div>
+</div>
