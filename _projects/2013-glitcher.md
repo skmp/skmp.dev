@@ -1,9 +1,9 @@
 ---
 layout: post
-title: jpeg glitcher
+title: Jpeg glitcher
 img: jpeg-glitcher.jpg
 slug: jpeg-glitcher
 year: 2013
 ---
 
-A hack to add inline assembly in Visual Basic 6? Sure thing!
+A jpeg glitcher in your browser. [Give it a try!](http://skmp.github.io/glitcher)
