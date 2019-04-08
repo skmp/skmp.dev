@@ -19,8 +19,9 @@ See how the maths looks
 Reasoning / general idea
 ---
 - Observer-based general relativity -- objective reality cannot be measured
-- "The cosmos" can be modeled as a multi dimentional space, where every possible arrangement of particles, energies and forces exists. (loosely derived from infinitive muliverses)
+- "The cosmos" can be modeled as a multi dimentional space, where every possible arrangement of particles, energies and forces exists. Every "universe" is immutable, time can be defined is the 'flow/path' between different multiverses (loosely derived from infinitive muliverses)
 - Observer-transforms project this multi dimentional space into measurements
+- Uncertainy can be modeled as the observer mixing different but very similar "universes" together during measurement
 - This model is time-invariant - time is just another dimention
 
 Benefits
