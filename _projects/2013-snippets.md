@@ -1,8 +1,8 @@
 ---
 layout: post
 title: snippets.nihil.cc
-img: numbers.png
-slug: numbers
+img: snippets.png
+slug: snippets
 year: 2013
 ---
 
