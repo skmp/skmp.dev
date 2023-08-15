@@ -15,4 +15,4 @@ FEX is currently in a state where it can run several 64-bit applications, includ
 
 For more information check the [FEX-Emu site](https://fex-emu.org)!
 
-After a fall-out with the team, some related, private work can be found at the[hex-emu gitlab](https://gitlab.com/hex-emu/hex-emu)
+After a fall-out with the team, some related, private/forked work can be found at the [hex-emu gitlab](https://gitlab.com/hex-emu/hex-emu)
