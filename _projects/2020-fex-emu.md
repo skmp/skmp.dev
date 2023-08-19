@@ -6,6 +6,8 @@ slug: fex-emu
 year: 2020-2022
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL_ZGlfnzU2tvlk-Ui-3D9kqwODXPwDU5O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 [FEX-Emu](https://fex-emu.org) is a usermode x86 and x86-64 emulator, supporting arm64 and x86-64 hosts. It is similar to qemu and box86,
 though it follows a different approach, using an SSA based IR.
 
