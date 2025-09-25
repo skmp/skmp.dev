@@ -6,7 +6,10 @@
 {% seo %}
 
 {% if page.img %}
-      <meta property="og:image" content="{{ page.img | absolute_url }}" >
+    <meta property="og:image" content="{{ page.img | absolute_url }}" >
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ page.img | absolute_url }}" />
+    <meta name="twitter:image:alt" content="{{ page.title }}" />
 {% endif %}
 <meta name="author" content="Stefanos Kornilios Mitsis Poiitidis">
 
