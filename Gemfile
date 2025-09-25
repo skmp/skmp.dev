@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 # gem 'github-pages', group: :jekyll_plugins
 
-ruby "3.2.3" 
+ruby "3.4.4" 
 
 gem "jekyll", "~> 4.4"        # upgrades to 4.4.x
 gem "kramdown", "~> 2.4"      # default Markdown engine in Jekyll 4
